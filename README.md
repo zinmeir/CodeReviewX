@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🔍 CodeReviewX</h1>
+  <h1> CodeReviewX</h1>
   <p><b>AI-Powered Automated Pull Request Reviewer & CI/CD Assistant</b></p>
   
   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -11,11 +11,11 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **CodeReviewX** is an LLM-based automated tool designed to act as a seamless CI/CD pipeline assistant. It integrates directly with GitHub to automatically analyze pull requests, combining traditional static analysis with deep semantic insights powered by the OpenAI API.
 
-### ✨ Core Features
+### Core Features
 * **Automated PR Reviews:** Listens to GitHub webhooks and triggers an automated analysis the moment a new Pull Request is opened.
 * **Deep Code Analysis:** Evaluates code for security vulnerabilities, performance bottlenecks, and clean code best practices.
 * **GitHub Bot Integration:** Automatically posts context-aware, inline review comments directly on GitHub PRs.
@@ -23,7 +23,7 @@
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 | Component | Technology | Description |
 |-----------|------------|-------------|
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚦 Getting Started
+##  Getting Started
 
 Follow these steps to run the complete full-stack environment locally on your machine.
 
@@ -61,7 +61,7 @@ Follow these steps to run the complete full-stack environment locally on your ma
 
 ---
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
 The next phase of development focuses on replacing the mock API data with live production endpoints:
 * **Live Webhooks:** Configuring `ngrok` to expose the local Flask backend to receive live GitHub Webhook events.
